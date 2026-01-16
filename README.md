@@ -1,39 +1,36 @@
-# 🧮 Calc - Advanced Python Calculator
+# Python CLI Calculator
 
-A feature-rich calculator application built with Python.
+## Overview
+A lightweight, robust command-line interface (CLI) calculator written in Python. Designed for developers and power users who need quick mathematical computations without leaving the terminal.
 
----
+## Features
+-   **Arithmetic Operations**: Support for addition, subtraction, multiplication, and division.
+-   **Advanced Math**: Integrated scientific functions (trigonometry, logarithms, exponentials).
+-   **History Log**: Keeps track of previous calculations for easy reference.
+-   **Error Handling**: Graceful management of invalid inputs and mathematical errors.
+-   **Cross-Platform**: Runs natively on any system with Python installed.
 
-## 🌟 Overview
+## Technology Stack
+-   **Language**: Python 3.9+ for core logic.
+-   **Standard Libraries**: `math` for scientific functions, `sys` for system interaction.
 
-A powerful calculator with advanced mathematical operations, built with a modern Python GUI.
+## Usage Flow
+1.  **Launch**: Open terminal and run the script.
+2.  **Input**: Type mathematical expressions (e.g., `5 * 12 + 4`).
+3.  **Compute**: System parses and evaluates the expression.
+4.  **Result**: Answer is displayed instantly.
 
-## ✨ Features
-
-- **Advanced Operations** - Scientific calculations
-- **Modern GUI** - Clean user interface
-- **Extensible** - Easy to add new functions
-
-## 🚀 Quick Start
-
+## Quick Start
 ```bash
 # Clone the repository
 git clone https://github.com/Nytrynox/Calc-Python.git
-cd Calc-Python
 
-# Setup
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-
-# Run
-python main.py
+# Run the calculator
+python calc.py
 ```
 
-## 📝 License
-
+## License
 MIT License
 
-## 👤 Author
-
+## Author
 **Karthik Idikuda**
