@@ -1,0 +1,10 @@
+tkinter
+google-generativeai
+speech_recognition
+pyttsx3
+pyaudio
+numpy
+sympy
+matplotlib
+pillow
+requests
